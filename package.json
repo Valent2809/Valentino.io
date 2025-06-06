@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Valent2809/Valentino.github.io",
+  "homepage": "https://github.com/Valent2809/Valentino.io",
   "dependencies": {
     "@react-three/cannon": "^6.6.0",
     "@react-three/drei": "^10.1.2",
