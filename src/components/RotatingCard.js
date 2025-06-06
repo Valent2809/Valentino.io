@@ -8,7 +8,7 @@ import { TextureLoader } from "three"
 function Card() {
   const cardRef = useRef()
   const [hovered, setHovered] = useState(false)
-  const profileTexture = useLoader(TextureLoader, `${process.env.PUBLIC_URL}/Face.JPG`);
+  const profileTexture = useLoader(TextureLoader, `${process.env.PUBLIC_URL}/Face.jpg`);
   
   useFrame((state) => {
     if (cardRef.current && !hovered) {
