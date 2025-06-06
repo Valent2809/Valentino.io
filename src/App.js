@@ -7,7 +7,7 @@ import SoftwareDevProjects from './pages/SoftwareDevProjects';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/Valentino.io">
       <div className="min-h-screen">
         <Navigation />
         <Routes>
