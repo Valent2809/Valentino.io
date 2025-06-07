@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Valentino.io/static/css/main.674ba9d6.css",
-    "main.js": "/Valentino.io/static/js/main.8e8a36ef.js",
+    "main.css": "/Valentino.io/static/css/main.54e4e29e.css",
+    "main.js": "/Valentino.io/static/js/main.3e934cc7.js",
     "static/js/453.ed3810f9.chunk.js": "/Valentino.io/static/js/453.ed3810f9.chunk.js",
     "index.html": "/Valentino.io/index.html",
-    "main.674ba9d6.css.map": "/Valentino.io/static/css/main.674ba9d6.css.map",
-    "main.8e8a36ef.js.map": "/Valentino.io/static/js/main.8e8a36ef.js.map",
+    "main.54e4e29e.css.map": "/Valentino.io/static/css/main.54e4e29e.css.map",
+    "main.3e934cc7.js.map": "/Valentino.io/static/js/main.3e934cc7.js.map",
     "453.ed3810f9.chunk.js.map": "/Valentino.io/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.674ba9d6.css",
-    "static/js/main.8e8a36ef.js"
+    "static/css/main.54e4e29e.css",
+    "static/js/main.3e934cc7.js"
   ]
 }
