@@ -158,10 +158,12 @@ const HomePage = () => {
           </div>
         </div>
 
-        {/* Experience Timeline */}
-        <div className="bg-white/80 backdrop-blur-xl border border-gray-200/50 mx-4 mb-8 rounded-3xl shadow-xl p-8">
+          {/* Experience Timeline - Mobile Responsive */}
+          <div className="bg-white/80 backdrop-blur-xl border border-gray-200/50 mx-4 mb-8 rounded-3xl shadow-xl p-8">
           <h2 className="text-3xl font-bold text-center mb-8 text-gray-900">My Experience</h2>
-          <div className="relative max-w-4xl mx-auto">
+          
+          {/* Desktop Timeline */}
+          <div className="hidden md:block relative max-w-4xl mx-auto">
             <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-indigo-500 to-purple-500 rounded-full"></div>
             
             {experiences.map((exp, index) => (
@@ -182,6 +184,25 @@ const HomePage = () => {
                 
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-white border-4 border-indigo-500 rounded-full flex items-center justify-center shadow-lg">
                   💼
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Mobile Timeline */}
+          <div className="md:hidden space-y-6">
+            {experiences.map((exp, index) => (
+              <div key={index} className="relative pl-8">
+                <div className="absolute left-0 top-0 w-6 h-6 bg-indigo-500 rounded-full flex items-center justify-center shadow-lg">
+                  <span className="text-white text-xs">💼</span>
+                </div>
+                <div className="absolute left-3 top-6 w-0.5 h-full bg-gradient-to-b from-indigo-500 to-purple-500 rounded-full"></div>
+                
+                <div className="bg-gradient-to-br from-white to-gray-50 border border-gray-200 p-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                  <h3 className="text-lg font-bold text-gray-900 mb-1">{exp.title}</h3>
+                  <h4 className="text-base text-indigo-600 font-semibold mb-1">{exp.company}</h4>
+                  <p className="text-xs text-gray-500 mb-3">{exp.date}</p>
+                  <p className="text-sm text-gray-700 leading-relaxed">{exp.description}</p>
                 </div>
               </div>
             ))}
