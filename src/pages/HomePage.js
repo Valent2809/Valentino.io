@@ -275,11 +275,11 @@ const HomePage = () => {
         <div className="bg-white/80 backdrop-blur-xl border border-gray-200/50 mx-4 mb-8 rounded-3xl shadow-xl overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-8">
             <div className="relative">
-              <div className="relative overflow-hidden rounded-2xl shadow-lg border border-gray-200">
+              <div className="relative overflow-hidden rounded-2xl shadow-lg border border-gray-200 h-80">
                 <img
                   src={carouselImages[currentImageIndex]}
                   alt="Interest"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain bg-gray-50"
                 />
                 <button
                   onClick={prevImage}
