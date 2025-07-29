@@ -88,7 +88,7 @@ const HomePage = () => {
               
               <div className="flex flex-wrap gap-3">
                 <a
-                  href="www.linkedin.com/in/valentino-ong"
+                  href="https://www.linkedin.com/in/valentino-ong"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-gray-300"
