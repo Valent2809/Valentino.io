@@ -224,7 +224,7 @@ const HomePage = () => {
                 <h3 className="text-lg font-bold text-gray-900">Singapore Management University</h3>
                 <p className="text-indigo-600 font-semibold">Bachelor of Computer Science</p>
                 <p className="text-sm text-gray-500">Aug 2021 – May 2025</p>
-                <p className="text-sm text-gray-700"><strong>Grade:</strong> Magna Cum Laude/Highest Distinction</p>
+                <p className="text-sm text-gray-700"><strong>Grade:</strong> Magna Cum Laude/High Distinction</p>
                 <p className="text-sm text-gray-700"><strong>Majors:</strong> AI & Business Analytics</p>
               </div>
             </div>
